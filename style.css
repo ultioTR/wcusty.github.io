@@ -1,0 +1,46 @@
+body {
+  background-color: #FFFFFF;
+  font-family: "comic sans ms";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* font stuff */
+h1 {
+  color: #DC806B;
+  font-size: 20px;
+}
+
+/* stuff */
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.pizza-cat {
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gudetama-link {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+#click-me {
+  align-item: center;
+  alignt-text: center;
+  font-size: 10px;
+  color: #000000;
+}
